@@ -161,39 +161,38 @@ footer {
 /* Adding media queries to make site responsive*/
 @media screen and (max-width: 500px){
     .header {
-        align-content: center;
+        padding: 5px 25px;
+    }
+    .header .logo {
+        float: left;
+        font-weight: bold;
+        font-size: 20px;
     }
     .header a {
-        float: none;
+        float: left;
         display: inline-block;
+        padding: 5px;
+        font-size: 12px;
     }
     .header-right {
-        float: none;
+        float: right;
     }
-   
     .container-2 {
-        width: 80%;
+        width: 100%;
     }
     #line-1 {
-        font-size: 28px;
+        font-size: 24px;
     }
     #line-2 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 48px;
     }
     #line-3 {
-        font-size: 28px;
+        font-size: 24px;
     }
     .button {
-        padding: 10px;
-        font-size: 24px;
-        font-weight: bold;
-        color: #DDCCCC;
-        text-transform: uppercase;
-        background-color: #A008B9;
-        border:none;
-        cursor: pointer;
-        text-decoration: none;
+        padding: 5px;
+        font-size: 20px;
     }
     .form-card {/* styling form container*/
         padding: 15px;
