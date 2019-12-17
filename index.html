@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Track Your Body Weight</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="viewHeight">
+            <div class="header">
+                <span class="logo">Bodi<span class="logo-2">Track</span></span>
+                <div class="header-right">
+                    <a href="#register"><b>Register</b></a></li>
+                    <a href="#sign-in"><b>Login</b></a></li>
+                </div>
+            </div>
+        <div class="container-2">
+            <p id="line-1"><b>set a body Weight goal</b></p>
+            <p id="line-2"><b>and we will help you <span id="line-3"><em>Trackit!</em></span></b></p><br>
+            <p><a href="#register" class="button"><strong>click here to get started</strong></a></p>
+        </div>
+    </section>
+    <br>
+<!--End of First section-->
+<!--second section starts here-->
+    <section id="register">
+        <form action="">
+            <div class="form-card form-margin">
+                <h1>Register</h1>
+                <p>Fill the form below to create a profile</p>
+                <hr>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Full Name" name="Name" required>
+                <label for="Height"><b>Height</b></label>
+                <input type="text" placeholder="Enter Your Height in m" name="Height" required>
+                <label for="Weight"><b>Body Weight</b></label>
+                <input type="text" placeholder="Enter Your Body Weight in kg" name="Weight" required>
+                <label for="Weight goal"><b>Body Weight Goal</b></label>
+                <input type="text" placeholder="Enter Your Body Weight Goal in kg" name="bodyWeight" required>
+                <label for="Date"><b>Date</b></label>
+                <input type="date" placeholder="Select Date" name="date" required>
+                <label for="email"><b>email</b></label>
+                <input type="email" placeholder="Enter Your Email address" name="Email" required>
+                <label for="Password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <label for="password"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="password" required>
+                <hr>
+                <p>By creating an account with us you agree to our <a href="">Terms and Agreement</a></p>
+                <button type="submit" class="registerbtn">create a profile</button>
+            </div>
+            <div class="form-card sign-in">
+                <p>Already have an account?<a href="#sign-in"> Login</a></p>
+            </div>
+        </form>
+    </section>
+    <!--End of Second section-->
+    <br>
+    <!--Third section begins here-->
+    <section id="sign-in">
+        <form action="">
+            <div class="form-card form-margin">
+                <h1>Sign In</h1>
+                <p>Welcome Back! Sign into your account</p>
+                <hr>
+                <label for="email"><b>email</b></label>
+                <input type="email" placeholder="Enter Your Email address" name="Email" required>
+                <label for="Password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <hr>
+                <button type="submit" class="registerbtn">Login</button>
+            </div>
+            <div class="form-card sign-in">
+                <p>Don't have an account?<a href="#register"> Register</a></p>
+            </div>
+        </form>
+    </section>
+    <!--End of third section-->
+    <footer> SaintLua &copy; 2019 </footer>
+</body>
+</html>

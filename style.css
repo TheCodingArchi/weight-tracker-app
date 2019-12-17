@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    color: #DDCCCC;
+}
+body {
+    margin: 0;
+    background-color: #000000;
+}
+/* Styling Header and its Content starts here*/
+.header {
+    overflow: hidden;
+    background-color: #342D2D;
+    padding: 5px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header .logo {
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-2 {
+    color: #A008B9;
+}
+.header a {
+    float: left;
+    color: #A008B9;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 18px;
+}
+.header a:hover {
+    background-color: #DDCCCC;
+    color: #A008B9;
+}
+.header-right {
+    float: right;
+}
+/* End of styling header and its contents*/
+.viewHeight {
+    min-height: 100vh;
+}
+/* Styling of body contents for section1 starts here*/
+.container-2 {
+    width: 60%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#line-1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+#line-2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight: bold;
+}
+#line-3 {
+    text-transform: capitalize;
+    color: #A008B9;
+    font-size: 52px;
+    font-weight: bold;
+}
+.button {
+    padding: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #DDCCCC;
+    text-transform: uppercase;
+    background-color: #A008B9;
+    border:none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #DDCCCC;
+    color: #A008B9;
+    border: none;
+    transition-duration: 1s;
+}
+/*styling of contents for section1 ends here*/
+/* styling of account creation form and sign in begins here */
+.form-card {/* styling form container*/
+    padding: 15px;
+    padding-top: 30px;
+    width: 60%;
+    margin: auto;
+    background-color: #342D2D;
+    border: 1px solid rgba(90, 88, 88, 0.3);
+}
+.form-margin {
+    margin-top: 100px;
+}
+hr {
+    border: 1px solid #DDCCCC;
+    opacity: 0.3;
+}
+input[type=text], input[type=date], input[type=email], input[type=password] {/* making input fields full width */
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: rgb(234, 206, 238);
+display: inline-block;
+}
+input[type=text]:focus, input[type=date]:focus, input[type=email]:focus, input[type=password]:focus {/*changing the background color of input fields on click*/
+    background-color: rgb(229, 159, 238);
+    outline: none;
+}
+.form-card a {
+    color: #A008B9;
+}
+.registerbtn {
+    padding: 16px;
+    width: 100%;
+    background-color: #A008B9;
+    color: #DDCCCC;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.registerbtn:focus {
+    outline: none;
+}
+.registerbtn:hover {
+    background-color: #DDCCCC;
+    color: #A008B9;
+    border: none;
+    transition-duration: 1s;
+}
+.sign-in {
+     background-color: black;
+     text-align: center;
+     margin-bottom: 15px;
+}
+/* End of styling for register and sign in section*/
+/* Styling the footer*/
+footer {
+    background-color: #A008B9;
+    padding: 16px;
+    color: #DDCCCC;
+    font-weight: bold;
+    text-align: center;
+}
+/* End of footer styling*/
+/* Adding media queries to make site responsive*/
+@media screen and (max-width: 500px){
+    .header {
+        align-content: center;
+    }
+    .header a {
+        float: none;
+        display: inline-block;
+    }
+    .header-right {
+        float: none;
+    }
+   
+    .container-2 {
+        width: 80%;
+    }
+    #line-1 {
+        font-size: 28px;
+    }
+    #line-2 {
+        font-size: 24px;
+        line-height: 48px;
+    }
+    #line-3 {
+        font-size: 28px;
+    }
+    .button {
+        padding: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #DDCCCC;
+        text-transform: uppercase;
+        background-color: #A008B9;
+        border:none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .form-card {/* styling form container*/
+        padding: 15px;
+        padding-top: 30px;
+        width: 80%;
+    }
+}
