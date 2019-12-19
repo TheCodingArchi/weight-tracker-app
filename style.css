@@ -20,14 +20,20 @@ body {
     left: 0;
     right: 0;
 }
-.header .logo {
+.header img {
+    margin-top: 5px;
+}
+.header > a > img:hover {
+    background-color: none;
+}
+/* .logo {
     font-weight: bold;
     font-size: 32px;
 }
 .logo-2 {
     color: #A008B9;
-}
-.header a {
+} */
+.header-right a {
     float: left;
     color: #A008B9;
     text-align: center;
@@ -35,7 +41,7 @@ body {
     padding: 12px;
     font-size: 18px;
 }
-.header a:hover {
+.header-right a:hover {
     background-color: #DDCCCC;
     color: #A008B9;
 }
@@ -47,7 +53,7 @@ body {
     min-height: 100vh;
 }
 /* Styling of body contents for section1 starts here*/
-.container-2 {
+.container {
     width: 60%;
     text-align: center;
     margin: 0;
@@ -75,7 +81,7 @@ body {
     font-weight: bold;
 }
 .button {
-    padding: 16px;
+    padding: 16px 64px;
     font-size: 28px;
     font-weight: bold;
     color: #DDCCCC;
@@ -163,10 +169,10 @@ footer {
     .header {
         padding: 5px 25px;
     }
-    .header .logo {
-        float: left;
-        font-weight: bold;
-        font-size: 20px;
+    .header img {
+        width: 100px;
+        height: 15px;
+        margin-top: 0;
     }
     .header a {
         float: left;
@@ -177,7 +183,7 @@ footer {
     .header-right {
         float: right;
     }
-    .container-2 {
+    .container {
         width: 100%;
     }
     #line-1 {
@@ -191,8 +197,8 @@ footer {
         font-size: 24px;
     }
     .button {
-        padding: 5px;
-        font-size: 16px;
+        padding: 16px 48px;
+        font-size: 24px;
     }
     .form-card {/* styling form container*/
         padding: 15px;
